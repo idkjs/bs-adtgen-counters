@@ -1,20 +1,39 @@
 {
   "counters": [
-    { "id": "7d901778-de83-42bd-8824-3ecb7a14d584", "name": "N", "value": 0 },
     {
-      "id": "03bc242b-177e-461c-95d4-a65156dad7ac",
+      "value": 0,
+      "name": "N",
+      "id": "7d901778-de83-42bd-8824-3ecb7a14d584"
+    },
+    {
+      "value": 0,
       "name": "{js| 🌮 |js}",
-      "value": 0
+      "id": "03bc242b-177e-461c-95d4-a65156dad7ac"
     },
     {
-      "id": "c763c2a1-e8e8-48a0-9f7c-dc97faf714f6",
+      "value": 0,
       "name": "Short title",
-      "value": 0
+      "id": "c763c2a1-e8e8-48a0-9f7c-dc97faf714f6"
     },
     {
-      "id": "b1f2ba14-6494-463d-9d27-b0b0a8ed575c",
+      "value": 0,
       "name": "\"+ This is a very long title long title long title long title, for a boring counter, isnt it?+ \"",
-      "value": 0
+      "id": "b1f2ba14-6494-463d-9d27-b0b0a8ed575c"
+    },
+    {
+      "value": 6,
+      "name": "new",
+      "id": "46722cfd-e836-42ab-864e-821ee05fda57"
+    },
+    {
+      "value": 5,
+      "name": "new",
+      "id": "e4611b35-8cf6-4581-97dc-3a01663f71a3"
+    },
+    {
+      "value": 2,
+      "name": "YEAH",
+      "id": "a3079783-389a-440e-9ddc-8deea0215c9b"
     }
   ]
 }

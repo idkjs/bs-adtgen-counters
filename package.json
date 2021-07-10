@@ -13,6 +13,7 @@
     "bs-platform": "9.0.2"
   },
   "dependencies": {
-    "@ahrefs/bs-atdgen-codec-runtime": "^2.0.1"
+    "@ahrefs/bs-atdgen-codec-runtime": "^2.0.1",
+    "uuid": "^8.3.2"
   }
 }
