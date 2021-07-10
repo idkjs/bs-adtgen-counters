@@ -26,17 +26,17 @@ let promiseToOptionalJson =
      });
 };
 
-// let fetch = (url: string): Js.Promise.t(option(Js.Json.t)) => {
-//   // let json = Js.Json.parseExn(url)|>Obj.magic|>promiseToOptionalJson;
-//   // let json = Js.Json.parseExn(url);
-//   Js.log("Called");
+let fetch = (url: string): Js.Promise.t(option(Js.Json.t)) => {
+  // let json = Js.Json.parseExn(url)|>Obj.magic|>promiseToOptionalJson;
+  // let json = Js.Json.parseExn(url);
+  Js.log("Called");
 
-//   let x = Fetch.fetch(url) |> promiseToOptionalJson;
-//   Js.log(x)->Js.Promise.resolve->ignore;
-//   Fetch.fetch(url) |> promiseToOptionalJson;
-// };
-// Js.log(fetch(url));
-let authenticate = (res: Fetch.Response.t):Js.Promise.t(Js.Json.t) => {
+  let x = Fetch.fetch(url) |> promiseToOptionalJson;
+  Js.log(x)->Js.Promise.resolve->ignore;
+  Fetch.fetch(url) |> promiseToOptionalJson;
+};
+Js.log(fetch(url));
+let authenticate = (res: Fetch.Response.t): Js.Promise.t(Js.Json.t) => {
   let status = Fetch.Response.status(res);
   switch (status) {
   | 200 => Fetch.Response.json(res)
@@ -47,9 +47,10 @@ let authenticate = (res: Fetch.Response.t):Js.Promise.t(Js.Json.t) => {
   };
 };
 let _ =
-    Js.Promise.(
-      Fetch.fetch(url)
-      |> then_(authenticate)
-      |> then_(json => json |> HandleCounterData.handleCounterData  |> resolve)
-    );
-
+  Js.Promise.(
+    Fetch.fetch(url)
+    |> then_(authenticate)
+    |> then_(json => json |> HandleCounterData.handleCounterData |> resolve)
+  );
+let x = (): Js.Promise.t(option(Js.Json.t)) =>
+  Fetch.fetch(url) |> promiseToOptionalJson;
