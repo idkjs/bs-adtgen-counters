@@ -32,9 +32,10 @@
   },
   "suffix": ".bs.js",
   "bs-dependencies": [
-    "@ahrefs/bs-atdgen-codec-runtime"
+    "@ahrefs/bs-atdgen-codec-runtime","bs-fetch"
   ],
   "warnings": {
+    "number": "-109",
     "error": "+101"
   },
   "generate-merlin": true
