@@ -1,19 +1,15 @@
 {
-  "name": "demo-bs-atdgen",
+  "name": "counters",
   "version": "0.0.1",
   "description": "demo of atdgen with bucklescript",
   "scripts": {
-    "postinstall": "esy",
     "clean": "bsb -clean-world",
     "build": "bsb -make-world",
-    "watch": "bsb -make-world -w",
-    "atdgen": "atdgen -t src/counters.atd && atdgen -bs src/counters.atd"
+    "atdgen": "atdgen -t shared/Counter.atd && atdgen -bs shared/Counter.atd",
+    "watch": "bsb -make-world -w"
   },
   "devDependencies": {
-    "esy":"*",
-    "bs-platform": "9.0.2"
-  },
-  "peerDependencies": {
+    "@jchavarri/bs-atdgen-generator": "^0.0.9",
     "bs-platform": "9.0.2"
   },
   "dependencies": {

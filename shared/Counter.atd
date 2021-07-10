@@ -1,5 +1,5 @@
+(* type id = string wrap <ocaml module="Transform.Id"> *)
 type id = string wrap <ocaml module="Transform.Id" wrap="Transform.Id.wrap" unwrap="Transform.Id.to_string">
-(* type id = string wrap <ocaml module="Js.Date" wrap="Js.Date.fromFloat" unwrap="Js.Date.valueOf"> *)
 
 type t = {
   ?id : id option;

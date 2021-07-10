@@ -1,5 +1,4 @@
-external id: 'a => 'a = "%identity";
-
+external id: ('a) => 'a = "%identity";
 module Id = {
   type t = string
 

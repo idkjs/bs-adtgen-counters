@@ -69,3 +69,32 @@ $ cat events.json
   }
 ]
 ```
+
+First add this, then `yarn --check-files`
+```json
+  "generators": [
+    {
+      "name": "atd_t",
+      "command": "yarn run atdgen -t $in"
+    },
+    {
+      "name": "atd_bs",
+      "command": "yarn run atdgen -bs $in"
+    }
+  ],
+```
+then
+
+
+```json
+    "generators": [
+      {
+        "name": "atd_t",
+        "edge": ["counter_t.ml", "counter_t.mli", ":", "counter.atd"]
+      },
+      {
+        "name": "atd_bs",
+        "edge": ["counter_bs.ml", "counter_bs.mli", ":", "counter.atd"]
+      }
+    ]
+```

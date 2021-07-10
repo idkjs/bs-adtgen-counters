@@ -14,12 +14,12 @@
   resolved "https://registry.yarnpkg.com/@glennsl/bs-json/-/bs-json-5.0.4.tgz#8a80906f3b5e04d78dc06722e5987ff6499c89a8"
   integrity sha512-Th9DetZjRlMZrb74kgGJ44oWcoFyOTE884WlSuXft0Cd+J09vHRxiB7eVyK7Gthb4cSevsBBJDHYAbGGL25wPw==
 
+"@jchavarri/bs-atdgen-generator@^0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@jchavarri/bs-atdgen-generator/-/bs-atdgen-generator-0.0.9.tgz#023065ea73e5f62894acd1c61cc4209cae96f40e"
+  integrity sha512-YtNBwB2bgQlPb6ZAVCZUBGempY36UbrgqSXE6iqkk4EghMcaq/jL5F9YGKlQFt6zDulm4qAuTQtMWAkJP6HO1w==
+
 bs-platform@9.0.2:
   version "9.0.2"
   resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-9.0.2.tgz#a6eac70eb8924a322556dacaccbfbc9b2a0d3a37"
   integrity sha512-Ye9JqJ4Oa7mcjjoOVRYI8Uc2Cf8N7jQLWDcdUplY7996d/YErSR7WitmV7XnSwr4EvdrbwjEsg1NxNjUQv3ChA==
-
-esy@*:
-  version "0.6.10"
-  resolved "https://registry.yarnpkg.com/esy/-/esy-0.6.10.tgz#918de2ad7e40793978c63b8216563408527cc25e"
-  integrity sha512-O+mWNPB9NJqDr3CA1PUbWUO1ZSy53ksZWivGrvbquATR5INlp3CYguwkq4BzZACg1s1bVYyhr7byjB/l1nuGRA==
