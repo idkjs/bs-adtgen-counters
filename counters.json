@@ -1,0 +1,22 @@
+[
+  {
+    "counters": [
+      { "id": "7d901778-de83-42bd-8824-3ecb7a14d584", "name": "N", "value": 0 },
+      {
+        "id": "03bc242b-177e-461c-95d4-a65156dad7ac",
+        "name": "{js| 🌮 |js}",
+        "value": 0
+      },
+      {
+        "id": "c763c2a1-e8e8-48a0-9f7c-dc97faf714f6",
+        "name": "Short title",
+        "value": 0
+      },
+      {
+        "id": "b1f2ba14-6494-463d-9d27-b0b0a8ed575c",
+        "name": "\"+ This is a very long title long title long title long title, for a boring counter, isnt it?+ \"",
+        "value": 0
+      }
+    ]
+  }
+]
